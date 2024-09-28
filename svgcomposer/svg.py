@@ -6,7 +6,7 @@ from diskcache import Cache
 import cairosvg.surface
 from PIL import Image
 
-from svglue import render_svg_string
+from .svglue import render_svg_string
 
 
 cache = Cache(__name__)
